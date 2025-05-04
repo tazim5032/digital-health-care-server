@@ -8,9 +8,16 @@ npm i express
 npm i ts-node-dev -D
 npm i cors
 npm i --save-dev @types/express
+npm i --save-dev @types/cors
 
 add this in package.json
 "scripts": {
 "test": "echo \"Error: no test specified\" && exit 1",
 "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
 },
+
+
+
+
+npx prisma migrate dev
+init
