@@ -21,3 +21,13 @@ add this in package.json
 
 npx prisma migrate dev
 init
+
+
+
+npx prisma studio
+
+
+hashing
+npm i bcrypt
+npm i --save-dev @types/bcrypt
+https://www.npmjs.com/package/bcrypt
